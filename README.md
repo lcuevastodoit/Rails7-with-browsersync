@@ -1,4 +1,13 @@
 # Rails 7 with BrowserSync
+This is a Rails 7 template, enabled with the `live reloading` of the web page when the code is changed.
+Also this rails app have ready:
+-  Bootstrap 5
+-  Esbuild JSBundling
+-  CSS Bundling
+-  Auto transpiling any change in assets
+-  Example Scaffold "Greetings"
+-  Live reloading when view changes in code (localhost:3001)
+
 ## Requirements
 - Ruby 3.0.3
 - yarn
@@ -15,7 +24,7 @@ git clone https://github.com/lcuevastodoit/Rails7-with-browsersync.git
     ruby -v
     # ruby 3.0.3p157
     ```
-    In the case of `rbenv` maybe you need add this lines at the end of your `.bash_profile` or `.bashrc` or `.zshrc`
+    In the case of `rbenv` maybe you need add these lines at the end of your `.bash_profile` or `.bashrc` or `.zshrc`
     ```
     export PATH="$HOME/.rbenv/shims:$PATH"
     eval "$(rbenv init -)"
